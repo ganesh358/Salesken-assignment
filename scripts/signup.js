@@ -7,13 +7,13 @@ var arr = JSON.parse(localStorage.getItem("user")) || []
 function Signup(e){
     e.preventDefault()
 
-    var name = document.getElementById("name").value;
+    var username = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     var password2 = document.getElementById("password2").value;
 
     var obj = {
-        name,
+        username,
         email,
         password
     }

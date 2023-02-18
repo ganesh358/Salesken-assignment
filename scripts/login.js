@@ -10,5 +10,19 @@ function Loginfun(){
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    console.log(username,password)
+     let count = 0;
+    for(var i=0;i<data.length;i++){
+        if(data[i].username === username && data[i].password === password){
+            count++
+        }
+    }
+      
+    if(count === 1){
+        alert("Login successful");
+        window.location.href = "/index.html"
+    }else{
+        alert("Invalid credintials")
+    }
+   
+
 }
