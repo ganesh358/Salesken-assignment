@@ -1,15 +1,21 @@
 *{
     font-family: sans-serif;
+    background-color: #023430;
 }
 #main{
     display: grid;
     justify-content: center;
     align-items: center;
     padding-top: 3rem;
+   
+}
+span{
+    background-color: white;
 }
 label{
     margin-top: .5rem;
     font-weight: 700;
+    background-color: white;
 }
 span{
     color: red;
@@ -17,7 +23,7 @@ span{
 form{
     display: grid;
     width: 22rem;
-   
+    background-color: white;
     
 }
 form>input{
@@ -25,12 +31,21 @@ form>input{
     font-weight: 500;
     padding-left: .5rem;
     font-size: 1rem;
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline-color: white;
+    
 }
+
+
 ::placeholder{
     font-weight: 500;
 }
 h1{
     text-align: center;
+    background-color: white;
 }
 #btn{
     margin-top: 1rem;
@@ -39,8 +54,11 @@ h1{
     display: grid;
     justify-content: center;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-    padding-bottom: 3rem;
-    width: 24rem;
+    padding-bottom: 2rem;
+    width: 30rem;
+    background-color: white;
+    border-radius: 2rem;
+    height: 30rem;
 }
 #btn{
     background-color: black;
@@ -68,9 +86,31 @@ button{
 #div3{
     display: flex;
     align-items: center;
+    margin-top: 2rem;
+    background-color: white;
+}
+p{
+    background-color: white;
 }
 a{
     text-decoration: none;
     font-size: .9rem;
     font-weight: 600;
+    background-color: white;
+    text-align: center;
+    color: green;
+}
+
+#div4{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+#show{
+    height: .9rem;
+}
+#navbar{
+    padding-left: 2rem;
+    margin-top: 1rem;
+    
 }

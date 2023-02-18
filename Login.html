@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="/styles/signup.css">
 </head>
 <body>
+    <div id="navbar">
+    </div>
     <div id="main">
        
         <div id="div2">
             <h1>Login</h1>
             <form action="">
-                <label for="name" >Email<span>*</span></label>
-                <input type="email" placeholder="Enter your email" required>
+                <label for="name" >Username<span>*</span></label>
+                <input type="text" placeholder="Enter your username" id="username" required>
                 <label for="name">Password<span>*</span></label>
-                <input type="password" placeholder="Enter your password" required>
+                <input type="password" placeholder="Enter your password" id="password" required>
                 <input id="btn" type="submit" value="Login">
             </form>
             <div id="div3">
@@ -30,3 +32,4 @@
     </div>
 </body>
 </html>
+<script src="/scripts/login.js" type="module"></script>

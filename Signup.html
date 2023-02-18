@@ -8,22 +8,31 @@
     <link rel="stylesheet" href="/styles/signup.css">
 </head>
 <body>
+    <div id="navbar">
+       
+    </div>
     <div id="main">
        
         <div id="div2">
             <h1>Sign up</h1>
             <form action="">
-                <label for="name">Name<span>*</span></label>
-                <input type="text" placeholder="Enter your name" required>
+                <label for="name">Username<span>*</span></label>
+                <input type="text" placeholder="Enter your username" id="name" required>
                 <label for="name" >Email<span>*</span></label>
-                <input type="email" placeholder="Enter your email" required>
+                <input type="email" placeholder="Enter your email" id="email" required>
                 <label for="name">Password<span>*</span></label>
-                <input type="password" placeholder="Enter your password" required>
+                <input type="password" placeholder="Enter your password" id="password" required>
+                <input  style="margin-top: 1rem;" type="password" placeholder="Confirm your password" id="password2" required>
+              <div id="div4">
+                <input type="checkbox"  name="" id="show">
+                <p>Show Password</p>
+              </div>
                 <input id="btn" type="submit">
             </form>
-            
 
+                <a style="color:green;margin-top: 2rem;text-decoration: overline;" href="/Login.html">Login</a>
         </div>
     </div>
 </body>
 </html>
+<script src="/scripts/signup.js" type="module"></script>
