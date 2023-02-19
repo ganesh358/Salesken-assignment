@@ -25,7 +25,7 @@ function Signup(e){
     
         alert("Sign Up Successfull")
        
-          window.location.href = "Login.html"
+          window.location.href = "index.html"
 
     }else{
         alert("Uh Oh! Your Password and confirm password don't match!")

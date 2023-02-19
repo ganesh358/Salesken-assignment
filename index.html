@@ -4,43 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salesken-Quiz</title>
-    <link rel="stylesheet" href="./styles/index.css">
+    <title>Salesken-Login</title>
+    <link rel="stylesheet" href="/styles/signup.css">
 </head>
 <body>
     <div id="navbar">
-    
     </div>
-
     <div id="main">
-    
-    <div class="quiz-container" id="quiz">
-        <div class="quiz-header">
-          <h2 id="question">Question Text</h2>
-          <ol>
-            <li>
-              <input type="radio" name="answer" id="a" class="answer">
-              <label for="a" id="a_text">Answer</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="b" class="answer">
-              <label for="b" id="b_text">Answer</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="c" class="answer">
-              <label for="c" id="c_text">Answer</label>
-            </li>
-            <li>
-              <input type="radio" name="answer" id="d" class="answer">
-              <label for="d" id="d_text">Answer</label>
-            </li>
-          </ol>
+       
+        <div id="div2">
+            <h1>Login</h1>
+            <form action="">
+                <label for="name" >Username<span>*</span></label>
+                <input type="text" placeholder="Enter your username" id="username" required>
+                <label for="name">Password<span>*</span></label>
+                <input type="password" placeholder="Enter your password" id="password" required>
+                <input id="btn" type="submit" value="Login">
+            </form>
+            <div id="div3">
+                <p>Don't have an account?</p>
+                <a href="/Signup.html">
+                    Create your new account
+                </a>
+
+            </div>
         </div>
-        <button id="submit">Answer</button>
-        <button id="skip">Skip</button>
-      </div>
-   
     </div>
 </body>
 </html>
-<script src="./scripts/index.js" type="module"></script>
+<script src="/scripts/login.js" type="module"></script>

@@ -26,7 +26,7 @@ function Loginfun(){
       
     if(count === 1){
         alert("Login successful");
-        window.location.href = "/index.html"
+        window.location.href = "/Quiz.html"
     }else{
         alert("Invalid credintials")
     }
