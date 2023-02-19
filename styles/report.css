@@ -2,3 +2,32 @@
     font-family: sans-serif;
     background-color: #023430;
 }
+
+#report{
+background-color: white;
+    
+}
+#report>div{
+    background-color: white;
+        
+    }
+#main{
+    width: 50rem;
+    padding: 6rem;
+    background-color: white;
+}
+h1{
+    background-color: aliceblue;
+}
+p{
+    background-color: aliceblue;
+}
+h2{
+    background-color: white;
+}
+#super{
+    display: grid;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
